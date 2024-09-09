@@ -6,7 +6,7 @@ alias edit-zsh='nvim ~/.zshrc'
 
 alias ls='lsd'
 alias lsa='lsd -a'
-alias c='clear'
+alias cl='clear'
 alias nfzf='nvim $(fzf)'
 alias ltree='lsd --tree'
 
