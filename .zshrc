@@ -14,7 +14,12 @@ alias ltree='lsd --tree'
 
 export PATH=$PATH:/Users/eudypte/.spicetify
 
+#for macOS
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 source /opt/homebrew/share/zsh-you-should-use/you-should-use.plugin.zsh
+
+#for linux
+#source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+#source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
