@@ -5,6 +5,7 @@ alias reload-zsh='source ~/.zshrc'
 alias edit-zsh='nvim ~/.zshrc'
 
 alias ls='lsd'
+alias lsl='lsd -l'
 alias lsa='lsd -a'
 alias cl='clear'
 alias nfzf='nvim $(fzf)'
