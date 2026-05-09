@@ -10,14 +10,14 @@ after-login-command = []
 # 'after-startup-command' is run after 'after-login-command'
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
 after-startup-command = [
-    "exec-and-forget borders active_color=0xffebdbb2 inactive_color=0x00000000 width=3 hidpi=on"
+    "exec-and-forget borders active_color=0xffD79920 inactive_color=0x00000000 width=3 hidpi=on order=above"
 ]
 
 
 exec-on-workspace-change = [
     '/bin/bash',
     '-c',
-    '/opt/homebrew/opt/sketchybar/bin/sketchybar --trigger aerospace_workspace_change AEROSPACE_FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE AEROSPACE_PREV_WORKSPACE=$AEROSPACE_PREV_WORKSPACE',
+    '/opt/homebrew/opt/sketchybar/bin/sketchybar --trigger aerospace_workspace_change FOCUSED_WORKSPACE=$AEROSPACE_FOCUSED_WORKSPACE PREV_WORKSPACE=$AEROSPACE_PREV_WORKSPACE',
 ]
 
 # Start AeroSpace at login
@@ -30,7 +30,7 @@ enable-normalization-opposite-orientation-for-nested-containers = true
 # See: https://nikitabobko.github.io/AeroSpace/guide#layouts
 # The 'accordion-padding' specifies the size of accordion padding
 # You can set 0 to disable the padding feature
-accordion-padding = 30
+accordion-padding = 15
 
 # Possible values: tiles|accordion
 default-root-container-layout = 'tiles'
@@ -69,8 +69,11 @@ automatically-unhide-macos-hidden-apps = false
     inner.vertical =   10
     outer.left =       10
     outer.bottom =     10
-    outer.top =        14
+    outer.top =        16
     outer.right =      10
+
+
+#auto-reload-config = true
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -136,10 +139,10 @@ automatically-unhide-macos-hidden-apps = false
     alt-4 = 'workspace 4'
     alt-5 = 'workspace 5'
     alt-6 = 'workspace 6'
-    alt-7 = 'workspace 7'
-    alt-8 = 'workspace 8'
-    alt-9 = 'workspace 9'
-    alt-e = 'workspace E'
+#   alt-7 = 'workspace 7'
+#    alt-8 = 'workspace 8'
+#    alt-9 = 'workspace 9'
+#    alt-e = 'workspace E'
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
     alt-shift-1 = 'move-node-to-workspace 1'
     alt-shift-2 = 'move-node-to-workspace 2'
@@ -147,10 +150,10 @@ automatically-unhide-macos-hidden-apps = false
     alt-shift-4 = 'move-node-to-workspace 4'
     alt-shift-5 = 'move-node-to-workspace 5'
     alt-shift-6 = 'move-node-to-workspace 6'
-    alt-shift-7 = 'move-node-to-workspace 7'
-    alt-shift-8 = 'move-node-to-workspace 8'
-    alt-shift-9 = 'move-node-to-workspace 9'
-    alt-shift-e = 'move-node-to-workspace E'
+#   alt-shift-7 = 'move-node-to-workspace 7'
+#   alt-shift-8 = 'move-node-to-workspace 8'
+#   alt-shift-9 = 'move-node-to-workspace 9'
+#alt-shift-e = 'move-node-to-workspace E'
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
     alt-tab = 'workspace-back-and-forth'
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-workspace-to-monitor

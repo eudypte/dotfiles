@@ -8,6 +8,15 @@ size = 20.0
 family = "SFMono Nerd Font"
 style = "Regular"
 
+[keyboard]
+bindings = [
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left",  mods = "Alt", chars = "\u001BB" },
+  { key = "Left",  mods = "Command", chars = "\u001BOH" },
+  { key = "Right",  mods = "Command", chars = "\u001BOF" },
+]
+
+
 [window]
 decorations = "buttonless"
 dynamic_padding = false
