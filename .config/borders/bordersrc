@@ -6,6 +6,7 @@ options=(
   hidpi=on
   active_color=0xffD79920
   inactive_color=0x00000000
+  order=above
 )
 
 borders "${options[@]}"
