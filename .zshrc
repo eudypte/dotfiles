@@ -11,7 +11,7 @@ export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk-21.0.2.jdk/Contents/Home
 export PATH=$PATH:$JAVA_HOME/bin
 export PATH=${PATH}:/usr/local/mysql/bin
 
-alias ls='lsd -1'
+alias l='lsd -la'
 alias lsl='lsd -al'
 alias lsa='lsd -a'
 alias cl='clear'
