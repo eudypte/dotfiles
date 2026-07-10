@@ -12,6 +12,7 @@ export PATH=$PATH:$JAVA_HOME/bin
 export PATH=${PATH}:/usr/local/mysql/bin
 
 alias l='lsd -la'
+alias ls='lsd -la'
 alias lsl='lsd -al'
 alias lsa='lsd -a'
 alias c='clear'
