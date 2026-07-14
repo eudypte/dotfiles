@@ -23,6 +23,7 @@ alias rlogin='ssh selimd@vt.edu@rlogin.cs.vt.edu'
 #alias sshcl='ssh ec2-user@($1)'
 #alias sshcl='echo ec2-user@$1'
 alias cdsch='cd ~/Documents/code/sch/'
+alias cdcode='cd ~/Documents/code/'
 alias sb-stop='brew services stop sketchybar'
 alias sb-start='brew services start sketchybar'
 
