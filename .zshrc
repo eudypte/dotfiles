@@ -26,6 +26,7 @@ alias cdsch='cd ~/Documents/code/sch/'
 alias cdcode='cd ~/Documents/code/'
 alias sb-stop='brew services stop sketchybar'
 alias sb-start='brew services start sketchybar'
+alias cc='claude'
 
 sshcl(){
   $1 "ec2-user@${1}"
