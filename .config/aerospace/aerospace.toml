@@ -193,3 +193,7 @@ automatically-unhide-macos-hidden-apps = false
     if.app-id='com.microsoft.VSCode'
     run = "move-node-to-workspace 2"
 
+    [[on-window-detected]]
+    if.app-id='org.mozilla.firefox'
+    run = "move-node-to-workspace 1"
+

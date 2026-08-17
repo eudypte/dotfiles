@@ -26,6 +26,7 @@ alias cdsch='cd ~/Documents/code/sch/'
 alias cdcode='cd ~/Documents/code/'
 alias sb-stop='brew services stop sketchybar'
 alias sb-start='brew services start sketchybar'
+alias sb-reload='sketchybar --reload'
 alias cc='claude'
 
 sshcl(){
