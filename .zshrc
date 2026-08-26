@@ -28,7 +28,7 @@ alias sb-stop='brew services stop sketchybar'
 alias sb-start='brew services start sketchybar'
 alias sb-reload='sketchybar --reload'
 alias cc='claude'
-
+alias reload-herdr='herdr server reload-config'
 sshcl(){
   $1 "ec2-user@${1}"
 }
