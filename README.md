@@ -1,2 +1,3 @@
 # dotfiles
-Personal dotfiles for macOS
+personal dotfiles for macOS
+aerospace/sketchybar focused
