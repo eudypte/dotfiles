@@ -29,6 +29,7 @@ alias sb-start='brew services start sketchybar'
 alias sb-reload='sketchybar --reload'
 alias cc='claude'
 alias reload-herdr='herdr server reload-config'
+alias rghc='runghc'
 sshcl(){
   $1 "ec2-user@${1}"
 }
@@ -77,3 +78,9 @@ unset __conda_setup
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="/opt/homebrew/opt/bison/bin:$PATH"
 export PATH="/opt/homebrew/opt/flex/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+export OPENSKY_CLIENT_ID=$(jq -r .clientId ~/Documents/code/creds/credentials.json)
+export OPENSKY_CLIENT_SECRET=$(jq -r .clientSecret ~/Documents/code/creds/credentials.json)
+export MAPTILER_KEY=$(jq -r .maptilerKey ~/Documents/code/creds/credentials.json)
+
+[ -f "/Users/eudypte/.ghcup/env" ] && . "/Users/eudypte/.ghcup/env" # ghcup-env

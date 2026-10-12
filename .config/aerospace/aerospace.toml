@@ -5,12 +5,16 @@
 # 'start-at-login' needs to be 'true' for 'after-login-command' to work
 # Available commands: https://nikitabobko.github.io/AeroSpace/commands
 after-login-command = []
+config-version = 2
+
+persistent-workspaces = ["1", "2", "3", "4", "5", "6"]
+
 
 # You can use it to add commands that run after AeroSpace startup.
 # 'after-startup-command' is run after 'after-login-command'
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
 after-startup-command = [
-    "exec-and-forget borders active_color=0xffD79920 inactive_color=0x00000000 width=3 hidpi=on order=above"
+    "exec-and-forget borders active_color=0xffD79920 inactive_color=0xFF1E1F20 width=3 hidpi=on order=above"
 ]
 
 
@@ -188,6 +192,9 @@ automatically-unhide-macos-hidden-apps = false
     if.app-id='com.spotify.client'
     run = "move-node-to-workspace 3"
 
+    [[on-window-detected]]
+    if.app-id='rocks.spotifast.Spotifast'
+    run = "move-node-to-workspace 3"
 
     [[on-window-detected]]
     if.app-id='com.microsoft.VSCode'

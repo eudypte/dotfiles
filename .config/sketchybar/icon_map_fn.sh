@@ -168,6 +168,9 @@ function icon_map() {
   "Spotify")
     icon_result=":spotify:"
     ;;
+  "Spotifast")
+    icon_result=":spotify:"
+    ;;
   "Neovide" | "MacVim" | "Vim" | "VimR")
     icon_result=":vim:"
     ;;
