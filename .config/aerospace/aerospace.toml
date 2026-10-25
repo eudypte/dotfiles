@@ -14,9 +14,8 @@ persistent-workspaces = ["1", "2", "3", "4", "5", "6"]
 # 'after-startup-command' is run after 'after-login-command'
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
 after-startup-command = [
-    "exec-and-forget borders active_color=0xffD79920 inactive_color=0xFF1E1F20 width=3 hidpi=on order=above"
+    "exec-and-forget ~/.local/bin/borders active_color=0xffD79920 inactive_color=0xFF1E1F20 width=3 hidpi=on order=above"
 ]
-
 
 exec-on-workspace-change = [
     '/bin/bash',

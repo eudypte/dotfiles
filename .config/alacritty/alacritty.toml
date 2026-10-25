@@ -6,20 +6,27 @@ size = 20.0
 family = "SFMono Nerd Font"
 style = "Regular"
 
+
+
+
 [keyboard]
 bindings = [
   { key = "Right", mods = "Alt", chars = "\u001BF" },
   { key = "Left",  mods = "Alt", chars = "\u001BB" },
   { key = "Left",  mods = "Command", chars = "\u001BOH" },
   { key = "Right",  mods = "Command", chars = "\u001BOF" },
+  { key = "Back", mods = "Command", chars = "\u0015" },
+  { key = "Back", mods = "Option",  chars = "\u001b\u007f" },
 ]
 
 
 [window]
 decorations = "buttonless"
 dynamic_padding = false
-opacity = 0.80
+opacity = 0.9
 blur = true
+option_as_alt = "OnlyLeft"
+
 
 [window.padding]
 x = 18
