@@ -59,6 +59,13 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 source /opt/homebrew/share/zsh-you-should-use/you-should-use.plugin.zsh
+source ~/.local/share/zsh/plugins/zsh-shift-select/zsh-shift-select.plugin.zsh
+
+bindkey -M shift-select '^[[1;10D' shift-select::beginning-of-line
+bindkey -M shift-select '^[[1;10C' shift-select::end-of-line
+bindkey -M emacs '^[[1;10D' shift-select::beginning-of-line
+bindkey -M emacs '^[[1;10C' shift-select::end-of-line
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

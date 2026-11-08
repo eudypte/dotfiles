@@ -11,11 +11,11 @@ sketchybar --bar position=top \
   corner_radius=12 \
   padding_left=0 \
   padding_right=0 \
-  color=0xff1E2021 \
-  border_color=0x20FFFFFF \
-  border_width=0 \
+  color=0xffffffff \
+  border_color=0xff000000 \
+  border_width=2 \
   shadow=on \
-  shadow.color=0x80000000 \
+  shadow.color=0x33000000 \
   shadow.distance=8 \
   shadow.angle=270
 
@@ -23,8 +23,8 @@ sketchybar --bar position=top \
 sketchybar --default \
   padding_left=5 \
   padding_right=5 \
-  icon.font="MartianMono Nerd Font:Bold:14.0" \
-  label.font="MartianMono Nerd Font:Bold:12.0s" \
+  icon.font="SFMono Nerd Font:Bold:14.0" \
+  label.font="SFMono Nerd Font:Bold:12.0s" \
   icon.color=$ORANGE \
   label.color=$ORANGE \
   icon.padding_right=4 \
@@ -33,6 +33,9 @@ sketchybar --default \
   background.color=$ITEM_BG_COLOR \
   background.corner_radius=5 \
   background.height=24
+
+##   icon.font="MartianMono Nerd Font:Bold:14.0" \
+##  label.font="MartianMono Nerd Font:Bold:12.0s" \
 
 # Left side:
 # Workspaces
@@ -69,8 +72,8 @@ sketchybar --add item front_app left \
   label.padding_left=8 \
   label.padding_right=8 \
   background.corner_radius=8 \
-  background.color=0xffD79920 \
-  label.color=0xff000000 \
+  background.color=0xff000000 \
+  label.color=0xffffffff \
   script="$CONFIG_DIR/scripts/front_app.sh" \
   --subscribe front_app front_app_switched
 

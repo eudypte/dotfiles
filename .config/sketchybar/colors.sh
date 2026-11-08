@@ -72,3 +72,9 @@ fi
 
 export ACCENT_COLOR=$(to_hex 255 $r $g $b)
 
+# BEGIN sketchybar-contrast-toggle
+export ORANGE=0xff000000
+export LABEL_COLOR=0xff6e6e6e
+export ITEM_BG_COLOR=0xfff0f0f0
+export ACCENT_COLOR=0xff000000
+# END sketchybar-contrast-toggle

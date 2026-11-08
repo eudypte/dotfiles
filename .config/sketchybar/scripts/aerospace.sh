@@ -9,8 +9,8 @@ if [ "$1" = "$FOCUSED_WORKSPACE" ]; then
   sketchybar --set $NAME background.drawing=on \
                          background.color=$ORANGE \
                          background.corner_radius=8 \
-                         label.color=0xff000000 \
-                         icon.color=0xff000000
+                         label.color=0xffffffff \
+                         icon.color=0xffffffff
 else
   sketchybar --set $NAME background.drawing=off \
                          label.color=$ORANGE \
