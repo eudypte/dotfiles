@@ -8,16 +8,17 @@ sketchybar --bar position=top \
   blur_radius=0 \
   y_offset=8 \
   margin=10 \
-  corner_radius=12 \
+  \
+  corner_radius=6 \
   padding_left=0 \
   padding_right=0 \
   color=0xffffffff \
   border_color=0xff000000 \
   border_width=2 \
-  shadow=on \
+  shadow=off \
   shadow.color=0x33000000 \
   shadow.distance=8 \
-  shadow.angle=270
+  shadow.angle=270 #corner_radius=12 \
 
 # Default item properties
 sketchybar --default \

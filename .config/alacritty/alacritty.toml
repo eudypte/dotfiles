@@ -34,7 +34,8 @@ y = 16
 
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
+import = ["~/.config/alacritty/themes/modus_operandi.toml"]
+#import = ["~/.config/alacritty/themes/themes/gruvbox_dark.toml"]
 
 #
 #[keyboard.bindings]

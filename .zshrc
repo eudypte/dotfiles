@@ -66,6 +66,7 @@ bindkey -M shift-select '^[[1;10C' shift-select::end-of-line
 bindkey -M emacs '^[[1;10D' shift-select::beginning-of-line
 bindkey -M emacs '^[[1;10C' shift-select::end-of-line
 
+export LS_COLORS="di=1;34:ln=36:so=35:pi=33:ex=1;31:bd=1;33:cd=1;33:su=1;31:sg=1;31:tw=1;34:ow=1;34:*.toml=36:*.yaml=36:*.yml=36:*.json=36:*.jsonc=36:*.ini=36:*.conf=36:*.cfg=36:*.env=36:*.lock=36:*.plist=36:*.xml=36:*.py=32:*.js=32:*.ts=32:*.jsx=32:*.tsx=32:*.c=32:*.h=32:*.cpp=32:*.hpp=32:*.java=32:*.rs=32:*.go=32:*.rb=32:*.lua=32:*.sh=32:*.zsh=32:*.bash=32:*.fish=32:*.swift=32:*.kt=32:*.css=32:*.scss=32:*.html=32:*.md=35:*.txt=35:*.rst=35:*.pdf=35:*.doc=35:*.docx=35:*.odt=35:*.tex=35:*.png=33:*.jpg=33:*.jpeg=33:*.gif=33:*.svg=33:*.webp=33:*.ico=33:*.heic=33:*.mp3=33:*.mp4=33:*.mov=33:*.wav=33:*.flac=33:*.zip=31:*.tar=31:*.gz=31:*.tgz=31:*.bz2=31:*.xz=31:*.7z=31:*.rar=31:*.dmg=31:*.pkg=31:*.log=90:*.bak=90:*.tmp=90:*.swp=90:*.orig=90"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
