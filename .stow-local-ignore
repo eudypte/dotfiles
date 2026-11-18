@@ -1,0 +1,10 @@
+\.git
+\.gitignore
+\.stow-local-ignore
+\.DS_Store
+^/README.*
+^/LICENSE.*
+^/theme-stuff
+^/assets
+^/\.zshrc-e
+^/\.claude
